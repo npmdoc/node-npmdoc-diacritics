@@ -1,9 +1,14 @@
-# api documentation for  [diacritics (v1.3.0)](https://github.com/andrewrk/node-diacritics#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-diacritics.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-diacritics) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-diacritics.svg)](https://travis-ci.org/npmdoc/node-npmdoc-diacritics)
+# npmdoc-diacritics
+
+#### api documentation for  [diacritics (v1.3.0)](https://github.com/andrewrk/node-diacritics#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-diacritics.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-diacritics) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-diacritics.svg)](https://travis-ci.org/npmdoc/node-npmdoc-diacritics)
+
 #### remove diacritics from strings
 
-[![NPM](https://nodei.co/npm/diacritics.png?downloads=true)](https://www.npmjs.com/package/diacritics)
+[![NPM](https://nodei.co/npm/diacritics.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/diacritics)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-diacritics/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-diacritics_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-diacritics/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-diacritics/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-diacritics/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-diacritics/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-diacritics/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-diacritics/build/screenCapture.npmPackageListing.svg)
 
@@ -45,13 +50,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "superjoe",
-            "email": "superjoe30@gmail.com"
+            "name": "superjoe"
         }
     ],
     "name": "diacritics",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/andrewrk/node-diacritics.git"
@@ -61,33 +64,6 @@
     },
     "version": "1.3.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module diacritics](#apidoc.module.diacritics)
-1.  [function <span class="apidocSignatureSpan">diacritics.</span>remove (str)](#apidoc.element.diacritics.remove)
-1.  object <span class="apidocSignatureSpan">diacritics.</span>diacriticsMap
-1.  object <span class="apidocSignatureSpan">diacritics.</span>replacementList
-
-
-
-# <a name="apidoc.module.diacritics"></a>[module diacritics](#apidoc.module.diacritics)
-
-#### <a name="apidoc.element.diacritics.remove"></a>[function <span class="apidocSignatureSpan">diacritics.</span>remove (str)](#apidoc.element.diacritics.remove)
-- description and source-code
-```javascript
-function removeDiacritics(str) {
-  return str.replace(/[^\u0000-\u007e]/g, function(c) {
-    return diacriticsMap[c] || c;
-  });
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 

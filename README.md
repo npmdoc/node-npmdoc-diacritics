@@ -1,6 +1,6 @@
 # npmdoc-diacritics
 
-#### api documentation for  [diacritics (v1.3.0)](https://github.com/andrewrk/node-diacritics#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-diacritics.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-diacritics) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-diacritics.svg)](https://travis-ci.org/npmdoc/node-npmdoc-diacritics)
+#### basic api documentation for  [diacritics (v1.3.0)](https://github.com/andrewrk/node-diacritics#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-diacritics.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-diacritics) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-diacritics.svg)](https://travis-ci.org/npmdoc/node-npmdoc-diacritics)
 
 #### remove diacritics from strings
 
@@ -62,7 +62,8 @@
     "scripts": {
         "test": "node test/test.js"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
